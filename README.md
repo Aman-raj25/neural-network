@@ -45,3 +45,7 @@ This repository contains an implementation of a simple neural network from scrat
 ### Author
 - **Aman Raj**
 
+## Contributing
+Feel free to fork this repository and submit **pull requests**. For major changes, please open an issue first to discuss your ideas.
+
+Happy Coding! 🚀
