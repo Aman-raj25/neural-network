@@ -45,6 +45,3 @@ This repository contains an implementation of a simple neural network from scrat
 ### Author
 - **Aman Raj**
 
-### License
-This project is licensed under the MIT License.
-
