@@ -48,7 +48,7 @@ python neural_network.ipynb
 
 ## **File Structure**  
 ```
-├── neural_network.py    # Main script for training & evaluation
+├── neural_network.ipynb    # Main script for training & evaluation
 ├── README.md            # Project documentation
 ```
 
