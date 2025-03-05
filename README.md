@@ -1,51 +1,75 @@
-# Neural Network with Sigmoid Activation
+## **Neural Network from Scratch**  
 
-## Repository: neural-network-sigmoid
+This project implements a **Neural Network from scratch** using **NumPy**.  
+It is a fully connected **feedforward neural network** trained using **backpropagation and gradient descent**.
 
-### Description
-This repository contains an implementation of a simple neural network from scratch using NumPy. The neural network is designed to solve the XOR problem using a single hidden layer with sigmoid activation.
 
-### File Structure
-- **main.py**: Contains the implementation of the neural network, including forward propagation, backward propagation, training, and visualization.
+## **📌 Features**  
 
-### Features
-- Implements a neural network with:
-  - A customizable number of hidden neurons
-  - Sigmoid activation function
-  - Gradient descent optimization
-  - Adaptive learning rate with decay
-- Trains on the XOR dataset
-- Visualizes the decision boundary
+✅ Implements a **fully connected feedforward neural network**  
+✅ Supports **multiple hidden layers**  
+✅ Uses **Sigmoid, ReLU, and Softmax** activation functions  
+✅ **Backpropagation** for efficient weight updates  
+✅ **Cross-Entropy and Mean Squared Error (MSE) loss** functions  
+✅ **Mini-batch Gradient Descent** implementation  
+✅ **Evaluation on real datasets**  
 
-### Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Aman-raj25/neural-network-sigmoid.git
-   cd neural-network-sigmoid
-   ```
-2. Install dependencies (if required):
-   ```bash
-   pip install numpy matplotlib
-   ```
-3. Run the neural network:
-   ```bash
-   python main.py
-   ```
 
-### Expected Output
-- The neural network should train for 5000 epochs, printing the loss at every 100 epochs.
-- A final accuracy score will be displayed.
-- A decision boundary plot will be shown, visualizing the learned function.
+## **Installation**  
 
-### Customization
-- Modify the `hidden_size` parameter in `main.py` to change the number of neurons in the hidden layer.
-- Adjust the `learning_rate` and `decay_rate` for different training behaviors.
-- Increase `epochs` for longer training sessions.
+### **Prerequisites**  
+Ensure you have **Python 3.x** installed along with the required libraries:  
 
-### Author
-- **Aman Raj**
+```bash
+pip install numpy matplotlib scikit-learn
+```
 
-## Contributing
-Feel free to fork this repository and submit **pull requests**. For major changes, please open an issue first to discuss your ideas.
 
-Happy Coding! 🚀
+## **Usage**  
+
+### **Clone the repository:**  
+```bash
+git clone https://github.com/Aman-raj25/neural-network.git
+cd neural-network
+```
+
+### **Run the program:**  
+```bash
+python neural_network.ipynb
+```
+
+
+## **Expected Output**  
+
+- The console will display **loss values** at each epoch.  
+- A **visualization of the loss curve** will be generated.  
+- **Predictions** on test data will be displayed.  
+
+
+## **File Structure**  
+```
+├── neural_network.py    # Main script for training & evaluation
+├── README.md            # Project documentation
+```
+
+
+## **Example Output**  
+```python
+Epoch 100: Loss = 0.245
+Epoch 200: Loss = 0.138
+...
+Final Model Trained. Accuracy = 92.5%
+```
+
+
+## **Author**  
+**Aman Raj**  
+
+
+## **Contributing**  
+Feel free to **fork this repository** and submit **pull requests**.  
+For major changes, please **open an issue** first to discuss your ideas.  
+
+
+### **Happy Coding! 🚀🔥**
+
